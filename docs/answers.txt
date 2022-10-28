@@ -1,0 +1,47 @@
+1.
+morganmccoy@Morgans-MacBook-Pro assignment2 % git add .
+morganmccoy@Morgans-MacBook-Pro assignment2 % git commit -m "added status.txt"
+[master d2a3137] added status.txt
+ 2 files changed, 6 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 docs/status.txt
+morganmccoy@Morgans-MacBook-Pro assignment2 % git push
+Username for 'https://github.com': mm21ci
+Password for 'https://mm21ci@github.com': 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.13 KiB | 1.13 MiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/mm21ci/assignment2.git
+   f4975e5..d2a3137  master -> master
+
+2.  8
+git shortlog -s -n
+
+3. Fri Oct 28 00:11:44 2022 -0400
+    git log README.md 
+
+4. branches are used in repositories so that multiple people can work on the same code at the same time and so that 
+    you can make changes to code without messing up the original code.
+
+5. git log shows the commit history for your branch while git status gives information about the current working directory.
+
+6. git log Vehicle.h
+
+7. git log --all --grep="file"
+
+8. inheritance has a "is-a" relationship. you can create a child class that inherits its attributes from the parent class.
+    polymorphism is the ability to use variables of different types at different times
+    encapuslation is the restriction of access of some object's components
+
+9. In dictator and lieutenants workflow only the dictator pushes to the repository. In integration manager workflow everyone
+pushes and pulls
+
+10. 100 developers will have a lot of conflicts when pushing to the central repository so using the dictator and lieutenants
+    workflow can mitigate some of the conflicts that the developers will have to worry about.
+
+Date gone through the github tutorials: 10/14
+Approximate date created a github account: Aug. 2021
